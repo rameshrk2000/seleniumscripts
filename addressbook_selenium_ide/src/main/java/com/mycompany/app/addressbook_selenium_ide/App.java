@@ -25,11 +25,11 @@ public class App
 
     	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     	driver.findElement(By.className("v-button")).click();
-    	driver.findElement(By.id("gwt-uid-5")).sendKeys("Edureka3");
-    	driver.findElement(By.id("gwt-uid-7")).sendKeys("DevOps3");
-    	driver.findElement(By.id("gwt-uid-9")).sendKeys("9834562710");
+    	driver.findElement(By.id("gwt-uid-5")).sendKeys("Edureka4");
+    	driver.findElement(By.id("gwt-uid-7")).sendKeys("DevOps4");
+    	driver.findElement(By.id("gwt-uid-9")).sendKeys("9834562712");
     	driver.findElement(By.id("gwt-uid-11")).sendKeys("rameshrk2000@hotmail.com");
-    	driver.findElement(By.id("gwt-uid-13")).sendKeys("08/06/68");
+    	driver.findElement(By.id("gwt-uid-13")).sendKeys("1/20/20,");
     	driver.findElement(By.className("v-button-primary")).click();
     	 //Thread.sleep(5000);
     	 //driver.quit();
