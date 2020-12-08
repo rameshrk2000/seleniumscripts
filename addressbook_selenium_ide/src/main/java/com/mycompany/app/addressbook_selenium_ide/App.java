@@ -17,7 +17,7 @@ public class App
     {
     	System.setProperty("webdriver.chrome.driver","/home/yolukrit/selenium/chromedriver");
     	ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArgument("--headless");
+        chromeOptions.addArguments("--headless");
     	WebDriver driver = new ChromeDriver(chromeOptions);
     	System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
     	
