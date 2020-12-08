@@ -15,8 +15,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\rames\\Documents\\edureka\\chrome-driver\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","/home/ubuntu/selenium/chromedriver");
     	ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArgument("--headless");
     	WebDriver driver = new ChromeDriver(chromeOptions);
     	System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
     	
